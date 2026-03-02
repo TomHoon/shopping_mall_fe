@@ -1,8 +1,10 @@
-@import 'tailwindcss';
+@import './reset.css';
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --min-width: 744px;
+  --max-width: 1440px;
 }
 
 @theme inline {

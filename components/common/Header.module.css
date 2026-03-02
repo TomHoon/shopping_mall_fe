@@ -1,0 +1,42 @@
+.commonLayoutHeader {
+  min-width: var(--min-width);
+  max-width: var(--max-width);
+  background-color: rgb(26, 27, 31);
+}
+
+.appBarContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  position: relative;
+}
+
+.searchBarContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.searchBarContainer input {
+  width: 1408px;
+  height: 36px;
+  border-radius: 4px;
+  color: rgb(138, 138, 138);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 10px;
+}
+input:focus {
+  outline: none;
+  border: none;
+}
+.searchBarContainer i {
+  position: absolute;
+  right: 23px;
+}
+
+.appBarContainer img {
+  height: 20px;
+}
