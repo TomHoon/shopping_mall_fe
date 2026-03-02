@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  min-width: var(--min-width);
+  display: flex;
+  overflow: hidden;
+  /*overflow-x: auto;*/
+  scroll-snap-align: start;
+}
+.container > div {
+  flex: 0 0 480px;
+}

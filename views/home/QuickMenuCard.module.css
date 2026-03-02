@@ -1,0 +1,30 @@
+/*공통*/
+.title {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*메인 퀵메뉴*/
+.quickMenuCard {
+  display: flex;
+}
+.quickMenuCard > .quickMenuCardImg {
+  width: 140px;
+  height: 60px;
+  border-radius: 4px;
+}
+
+/*서브 퀵메뉴*/
+.quickSubMenuCard {
+  display: flex;
+  padding: 3px 5px;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid rgb(224, 224, 224);
+}
+.quickSubMenuCard > .quickMenuCardImg {
+  width: 26px;
+  height: 26px;
+}

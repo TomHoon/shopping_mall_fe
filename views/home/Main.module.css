@@ -1,0 +1,63 @@
+.appTabWrapper {
+  display: flex;
+  padding: 0 16px;
+  font-size: 14px;
+  background-color: rgb(26, 27, 31);
+  gap: 10px;
+}
+
+.appTab {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appTab span {
+  max-width: 46px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 2줄 제한 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-break: break-all;
+}
+.normal {
+  color: #a4a4a6;
+}
+
+.active {
+  position: relative;
+  color: #ffffff;
+  font-weight: 700;
+}
+.active:after {
+  content: '';
+  background-color: #fff;
+  width: 24px;
+  height: 2px;
+  position: absolute;
+  bottom: 0px;
+  left: 1px;
+}
+
+.heroWrapper {
+  display: flex;
+}
+
+.quickMenuWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 10px 10px 0 10px;
+}
+.quickMenuWrapper > div {
+  flex: 0 0 140px;
+}
+.quickSubMenuWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 10px 0 10px;
+}
