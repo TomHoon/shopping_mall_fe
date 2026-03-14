@@ -1,8 +1,10 @@
-@import "tailwindcss";
+@import './reset.css';
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --min-width: 744px;
+  --max-width: 1440px;
 }
 
 @theme inline {
@@ -13,10 +15,10 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/*  :root {*/
+/*    --background: #0a0a0a;*/
+/*    --foreground: #ededed;*/
+/*  }*/
 }
 
 body {

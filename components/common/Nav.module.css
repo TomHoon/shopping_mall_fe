@@ -1,0 +1,85 @@
+.commonLayoutGnb {
+  width: 100%;
+  padding: 16px;
+  background-color: rgb(26, 27, 31);
+}
+
+.commonGnbContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.commonGnbContainer a {
+}
+
+.commonWrapperLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8); /*#FFFFFFCC*/
+}
+
+.commonNavMenus {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.commonNavMenus:before,
+.commonNavMenus:after {
+  content: '';
+  height: 20px;
+  width: 1px;
+  background-color: #fff6;
+}
+
+.commonHeightCenter {
+  display: flex;
+  align-items: center;
+}
+
+/*오른쪽*/
+
+.commonWrapperRight {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  gap: 10px;
+  font-weight: 600;
+}
+
+.commonNavMyMenus {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.commonNavMyMenus:before {
+  content: '';
+  height: 20px;
+  width: 1px;
+  background-color: #fff6;
+}
+
+.cartNumber {
+  color: #fff;
+  background-color: #245eff;
+  border-radius: 18px;
+  padding: 0 4px;
+  font-size: 10px;
+  margin-left: 4px;
+}
+
+.login {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}
